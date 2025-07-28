@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HorizonClassroomFaculty (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "HorizonClassroomFaculty (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
