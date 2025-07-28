@@ -25,7 +25,9 @@ namespace HorizonClassroomFaculty
     {
         public MainWindow()
         {
-            InitializeComponent();
+            this.InitializeComponent();
+            ExtendsContentIntoTitleBar = true;
+            SetTitleBar(TitleBar);
         }
     }
 }
