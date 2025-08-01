@@ -22,7 +22,7 @@
         <TitleBar x:Name="TitleBar"
                   Title="Horizon Classroom - Faculty">
             <TitleBar.IconSource>
-                <FontIconSource Glyph="&#xF4AA;"/>
+                <FontIconSource Glyph="&#x268E;"/>
             </TitleBar.IconSource>
         </TitleBar>
 
