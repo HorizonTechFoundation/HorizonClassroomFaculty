@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="HorizonClassroomFaculty.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HorizonClassroomFaculty"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Grid ColumnSpacing="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="7.8*"/>
+            <ColumnDefinition Width="0.2*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Orientation="Vertical" Spacing="10">
+            <TextBlock Text="Home Page" FontSize="32" Margin="0,0,0,20" Foreground="Black"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Orientation="Vertical" Spacing="70" Margin="0,133,0,50">
+
+            <!-- ========== HOME TITLE ============ -->
+            
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <Rectangle Width="5" Height="100" Fill="#08AD8C"/>
+                <StackPanel Orientation="Vertical" Margin="15,0,0,0">
+                    <TextBlock Text="Welcome To" FontSize="40" Foreground="Black"/>
+                    <TextBlock Text="Horizon Classroom Faculty !" Foreground="#08AD8C" FontSize="50"/>
+                </StackPanel>
+            </StackPanel>
+            
+            <!-- ======== RECENT CLASSES ========== -->
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="25*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0" Margin="5">
+                    <Rectangle Fill="#08AD8C" RadiusX="10" RadiusY="10" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Padding="40" Spacing="10">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20">
+                            <Rectangle Fill="Red" RadiusX="300" RadiusY="300" Width="20" Height="20"/>
+                            <TextBlock Text="Not Started" FontSize="20" Foreground="White" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                        <TextBlock Text="Environmental And Social Impact Assessment" TextWrapping="Wrap" TextAlignment="Center" FontSize="22" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Chocka D Lingam" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Foreground="White" HorizontalAlignment="Center" Opacity="0.75"/>
+                        <TextBlock Text="10:30 AM - 11:20 AM At B2L03" TextWrapping="Wrap" TextAlignment="Center" FontSize="18" Foreground="White" HorizontalAlignment="Center" Opacity="0.5"/>
+                    </StackPanel>
+                    
+                </Grid>
+
+                <Grid Grid.Column="2" Margin="5">
+                    <Rectangle Fill="#08AD8C" RadiusX="10" RadiusY="10" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Padding="40" Spacing="10">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20">
+                            <Rectangle Fill="Red" RadiusX="300" RadiusY="300" Width="20" Height="20"/>
+                            <TextBlock Text="Not Started" FontSize="20" Foreground="White" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                        <TextBlock Text="Environmental And Social Impact Assessment" TextWrapping="Wrap" TextAlignment="Center" FontSize="22" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Chocka D Lingam" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Foreground="White" HorizontalAlignment="Center" Opacity="0.75"/>
+                        <TextBlock Text="10:30 AM - 11:20 AM At B2L03" TextWrapping="Wrap" TextAlignment="Center" FontSize="18" Foreground="White" HorizontalAlignment="Center" Opacity="0.5"/>
+                    </StackPanel>
+                </Grid>
+
+                <Grid Grid.Column="4" Margin="5">
+                    <Rectangle Fill="#08AD8C" RadiusX="10" RadiusY="10" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Padding="40" Spacing="10">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20">
+                            <Rectangle Fill="Red" RadiusX="300" RadiusY="300" Width="20" Height="20"/>
+                            <TextBlock Text="Not Started" FontSize="20" Foreground="White" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                        <TextBlock Text="Environmental And Social Impact Assessment" TextWrapping="Wrap" TextAlignment="Center" FontSize="22" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Chocka D Lingam" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Foreground="White" HorizontalAlignment="Center" Opacity="0.75"/>
+                        <TextBlock Text="10:30 AM - 11:20 AM At B2L03" TextWrapping="Wrap" TextAlignment="Center" FontSize="18" Foreground="White" HorizontalAlignment="Center" Opacity="0.5"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+            
+            <!-- ============ ABOUT HOME ========== -->
+
+            <TextBlock 
+                Text="Horizon Classroom is a mobile-first solution designed to minimize distractions during class or test hours. By enforcing in-app presence, the app automatically tracks student attention. If a student closes or minimizes the app, they are instantly marked as absent—encouraging full participation and minimizing mobile misuse." 
+                FontSize="24" 
+                TextWrapping="Wrap"
+                Foreground="Black"  
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                TextAlignment="Justify"
+            />
+
+            <!-- ========== BUTTONS ============= -->
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="45*"/>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="45*"/>
+                </Grid.ColumnDefinitions>
+                <Button Content="Go to Settings" Click="GoToSettings_Click" Grid.Column="0" Width="Auto" HorizontalAlignment="Stretch" Height="100" Background="#08AD8C" CornerRadius="14" FontSize="30"/>
+                <Button Content="Go to Settings" Click="GoToSettings_Click" Grid.Column="2" Width="Auto" HorizontalAlignment="Stretch" Height="100" Background="#08AD8C" CornerRadius="14" FontSize="30"/>
+            </Grid>
+
+
+
+        </StackPanel>
+    </Grid>
+</Page>
