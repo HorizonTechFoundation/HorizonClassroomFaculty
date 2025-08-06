@@ -11,11 +11,11 @@
 
     <Grid ColumnSpacing="20">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="7.8*"/>
+            <ColumnDefinition Width="2.5*"/>
+            <ColumnDefinition Width="7.3*"/>
             <ColumnDefinition Width="0.2*"/>
         </Grid.ColumnDefinitions>
-        
+
         <!-- ========== SIDE PROFILE BAR ============= -->
 
         <StackPanel Grid.Column="0" Orientation="Vertical" Spacing="10" Background="#08AD8C" VerticalAlignment="Stretch">
@@ -23,37 +23,37 @@
             <StackPanel Margin="0,50,0,20">
                 <Rectangle Fill="HotPink" RadiusX="300" RadiusY="300" Width="200" Height="200"/>
             </StackPanel>
-            
+
             <!-- =========== DETAILED INFO ============== -->
 
             <StackPanel HorizontalAlignment="Center" Margin="0,50,0,50">
-                <TextBlock Text="RIT-EVD" FontSize="30" Margin="20,0,0,20" Foreground="White" FontWeight="Bold" TextAlignment="Center"/>
-                <TextBlock Text="Erana Veerapa Dinesh" FontSize="30" Margin="20,0,0,20" Foreground="White" TextAlignment="Center"/>
-                <TextBlock Text="Assistant Professor" FontSize="25" Margin="20,0,0,20" Foreground="White" Opacity="0.5" TextAlignment="Center"/>
-                <TextBlock Text="Department Of Computer Science and Business Systems" FontSize="25" TextWrapping="Wrap" Margin="20,0,0,20" Foreground="White" TextAlignment="Center"/>
-                <TextBlock Text="RITRJPM" FontSize="25" Margin="20,0,0,20" Foreground="White" FontWeight="Bold" TextAlignment="Center"/>
+                <TextBlock Text="RIT-EVD" FontSize="30" Margin="40,0,40,20" Foreground="White" FontWeight="Bold" TextAlignment="Center" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins"/>
+                <TextBlock Text="Erana Veerapa Dinesh" FontSize="30" Margin="40,0,40,20" Foreground="White" TextAlignment="Center" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins"/>
+                <TextBlock Text="Assistant Professor" FontSize="25" Margin="40,0,40,20" Foreground="White" Opacity="0.5" TextAlignment="Center" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins"/>
+                <TextBlock Text="Department Of Computer Science and Business Systems" FontSize="25" TextWrapping="Wrap" Margin="40,0,40,20" Foreground="White" TextAlignment="Center" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins"/>
+                <TextBlock Text="RITRJPM" FontSize="25" Margin="40,0,40,20" Foreground="White" FontWeight="Bold" TextAlignment="Center" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins"/>
             </StackPanel>
-            
+
             <!-- =============== BUTTONS ================ -->
-            
+
             <StackPanel HorizontalAlignment="Center" Spacing="20">
-                <Button Content="Create Class" Click="GoToSettings_Click" Grid.Column="0" Width="300" Height="80" Background="White" Foreground="#08AD8C" CornerRadius="14" FontSize="30"/>
-                <Button Content="Logout" Click="GoToSettings_Click" Grid.Column="0" Width="300" Height="80" Background="Red" Foreground="White" CornerRadius="14" FontSize="30"/>
+                <Button Content="Create Class" Click="GoToSettings_Click" Grid.Column="0" Width="300" Height="80" Margin="40,0,40,0" FontFamily="/Assets/Fonts/Amaranth-Regular.ttf#Amaranth" Background="White" Foreground="#08AD8C" CornerRadius="14" FontSize="30"/>
+                <Button Content="Logout" Click="GoToSettings_Click" Grid.Column="0" Width="300" Height="80" Margin="40,0,40,0" FontFamily="/Assets/Fonts/Amaranth-Regular.ttf#Amaranth" Background="Red" Foreground="White" CornerRadius="14" FontSize="30"/>
             </StackPanel>
         </StackPanel>
 
         <StackPanel Grid.Column="1" Orientation="Vertical" Spacing="70" Margin="50,133,0,50">
 
             <!-- ========== HOME TITLE ============ -->
-            
+
             <StackPanel Orientation="Horizontal" Spacing="10">
-                <Rectangle Width="5" Height="100" Fill="#08AD8C"/>
+                <Rectangle Width="10" Height="100" Fill="#08AD8C"/>
                 <StackPanel Orientation="Vertical" Margin="15,0,0,0">
-                    <TextBlock Text="Welcome To" FontSize="40" Foreground="Black"/>
-                    <TextBlock Text="Horizon Classroom Faculty !" Foreground="#08AD8C" FontSize="50"/>
+                    <TextBlock Text="Welcome To" FontSize="40" Foreground="Black" FontFamily="/Assets/Fonts/Amaranth-Regular.ttf#Amaranth"/>
+                    <TextBlock Text="Horizon Classroom Faculty !" Foreground="#08AD8C" FontSize="50" FontFamily="/Assets/Fonts/Amaranth-Regular.ttf#Amaranth"/>
                 </StackPanel>
             </StackPanel>
-            
+
             <!-- ======== RECENT CLASSES ========== -->
 
             <Grid>
@@ -70,13 +70,13 @@
                     <StackPanel Orientation="Vertical" Padding="40" Spacing="10">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20">
                             <Rectangle Fill="Red" RadiusX="300" RadiusY="300" Width="20" Height="20"/>
-                            <TextBlock Text="Not Started" FontSize="20" Foreground="White" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Not Started" FontSize="20" Foreground="White" HorizontalAlignment="Center" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins"/>
                         </StackPanel>
-                        <TextBlock Text="Environmental And Social Impact Assessment" TextWrapping="Wrap" TextAlignment="Center" FontSize="22" Foreground="White" HorizontalAlignment="Center"/>
-                        <TextBlock Text="Chocka D Lingam" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Foreground="White" HorizontalAlignment="Center" Opacity="0.75"/>
-                        <TextBlock Text="10:30 AM - 11:20 AM At B2L03" TextWrapping="Wrap" TextAlignment="Center" FontSize="18" Foreground="White" HorizontalAlignment="Center" Opacity="0.5"/>
+                        <TextBlock Text="Environmental And Social Impact Assessment" TextWrapping="Wrap" TextAlignment="Center" FontSize="22" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Chocka D Lingam" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Foreground="White" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins" HorizontalAlignment="Center" Opacity="0.75"/>
+                        <TextBlock Text="10:30 AM - 11:20 AM At B2L03" TextWrapping="Wrap" TextAlignment="Center" FontSize="18" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins" Foreground="White" HorizontalAlignment="Center" Opacity="0.5"/>
                     </StackPanel>
-                    
+
                 </Grid>
 
                 <Grid Grid.Column="2" Margin="5">
@@ -84,11 +84,11 @@
                     <StackPanel Orientation="Vertical" Padding="40" Spacing="10">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20">
                             <Rectangle Fill="Red" RadiusX="300" RadiusY="300" Width="20" Height="20"/>
-                            <TextBlock Text="Not Started" FontSize="20" Foreground="White" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Not Started" FontSize="20" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins" Foreground="White" HorizontalAlignment="Center"/>
                         </StackPanel>
-                        <TextBlock Text="Environmental And Social Impact Assessment" TextWrapping="Wrap" TextAlignment="Center" FontSize="22" Foreground="White" HorizontalAlignment="Center"/>
-                        <TextBlock Text="Chocka D Lingam" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Foreground="White" HorizontalAlignment="Center" Opacity="0.75"/>
-                        <TextBlock Text="10:30 AM - 11:20 AM At B2L03" TextWrapping="Wrap" TextAlignment="Center" FontSize="18" Foreground="White" HorizontalAlignment="Center" Opacity="0.5"/>
+                        <TextBlock Text="Environmental And Social Impact Assessment" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins" TextWrapping="Wrap" TextAlignment="Center" FontSize="22" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Chocka D Lingam" TextWrapping="Wrap" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins" TextAlignment="Center" FontSize="20" Foreground="White" HorizontalAlignment="Center" Opacity="0.75"/>
+                        <TextBlock Text="10:30 AM - 11:20 AM At B2L03" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins" TextWrapping="Wrap" TextAlignment="Center" FontSize="18" Foreground="White" HorizontalAlignment="Center" Opacity="0.5"/>
                     </StackPanel>
                 </Grid>
 
@@ -97,15 +97,15 @@
                     <StackPanel Orientation="Vertical" Padding="40" Spacing="10">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20">
                             <Rectangle Fill="Red" RadiusX="300" RadiusY="300" Width="20" Height="20"/>
-                            <TextBlock Text="Not Started" FontSize="20" Foreground="White" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Not Started" FontSize="20" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins" Foreground="White" HorizontalAlignment="Center"/>
                         </StackPanel>
-                        <TextBlock Text="Environmental And Social Impact Assessment" TextWrapping="Wrap" TextAlignment="Center" FontSize="22" Foreground="White" HorizontalAlignment="Center"/>
-                        <TextBlock Text="Chocka D Lingam" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Foreground="White" HorizontalAlignment="Center" Opacity="0.75"/>
-                        <TextBlock Text="10:30 AM - 11:20 AM At B2L03" TextWrapping="Wrap" TextAlignment="Center" FontSize="18" Foreground="White" HorizontalAlignment="Center" Opacity="0.5"/>
+                        <TextBlock Text="Environmental And Social Impact Assessment" TextWrapping="Wrap" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins" TextAlignment="Center" FontSize="22" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Chocka D Lingam" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins" Foreground="White" HorizontalAlignment="Center" Opacity="0.75"/>
+                        <TextBlock Text="10:30 AM - 11:20 AM At B2L03" TextWrapping="Wrap" TextAlignment="Center" FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins" FontSize="18" Foreground="White" HorizontalAlignment="Center" Opacity="0.5"/>
                     </StackPanel>
                 </Grid>
             </Grid>
-            
+
             <!-- ============ ABOUT HOME ========== -->
 
             <TextBlock 
@@ -116,6 +116,7 @@
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Center"
                 TextAlignment="Justify"
+                FontFamily="/Assets/Fonts/Poppins-Regular.ttf#Poppins"
             />
 
             <!-- ========== BUTTONS ============= -->
@@ -126,8 +127,8 @@
                     <ColumnDefinition Width="10*"/>
                     <ColumnDefinition Width="45*"/>
                 </Grid.ColumnDefinitions>
-                <Button Content="Create Class" Click="GoToSettings_Click" Grid.Column="0" Width="Auto" HorizontalAlignment="Stretch" Height="100" Background="#08AD8C" CornerRadius="14" FontSize="30"/>
-                <Button Content="Manage Classes" Click="GoToSettings_Click" Grid.Column="2" Width="Auto" HorizontalAlignment="Stretch" Height="100" Background="#08AD8C" CornerRadius="14" FontSize="30"/>
+                <Button Content="Create Class" Click="GoToSettings_Click" Grid.Column="0" Width="Auto" HorizontalAlignment="Stretch" Height="100" Background="#08AD8C" CornerRadius="14" FontSize="30" FontFamily="/Assets/Fonts/Amaranth-Regular.ttf#Amaranth"/>
+                <Button Content="Manage Classes" Click="GoToSettings_Click" Grid.Column="2" Width="Auto" HorizontalAlignment="Stretch" Height="100" Background="#08AD8C" CornerRadius="14" FontSize="30" FontFamily="/Assets/Fonts/Amaranth-Regular.ttf#Amaranth"/>
             </Grid>
 
 
